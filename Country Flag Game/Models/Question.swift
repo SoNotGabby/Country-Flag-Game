@@ -9,7 +9,7 @@ import Foundation
 struct Answer: Identifiable {
     var id = UUID()
     let text: String
-    var iscorrect: Bool
+    var isCorrect: Bool
 }
 
 struct Question: Identifiable {
